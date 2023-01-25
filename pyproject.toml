@@ -1,0 +1,24 @@
+[build-system]
+requires = [
+	"networkx==2.5",
+	"pytest>=3.0"
+	]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bfs"
+authors = [{name = "Cindy Pino", email = "cindy.barrios@ucsf.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pytest"
+]
+
+[project.urls]
+Home = "https://github.com/cindykhris/HW2-BFS_CB"
+
+
+
+
